@@ -1,0 +1,28 @@
+{
+  "name": "conventional-commits",
+  "version": "1.0.0",
+  "description": "A sample demonstration of using commitizen and other tooling to generate changelogs and versioning",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devboosts/conventional-commits.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devboosts/conventional-commits/issues"
+  },
+  "homepage": "https://github.com/devboosts/conventional-commits#readme",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
